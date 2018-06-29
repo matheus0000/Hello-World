@@ -1,9 +1,9 @@
-Hello World   Inglés
+Hello World        Inglés
 
-Olá Mundo     Português
+Olá Mundo          Português
 
-Hola Mundo    Espanhol
+Hola Mundo         Espanhol
 
-Привет мир    Russo
+Привет мир         Russo
 
-Hallo Welt    Alemão
+Hallo Welt         Alemão
