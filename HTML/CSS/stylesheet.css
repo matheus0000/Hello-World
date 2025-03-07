@@ -1,105 +1,30 @@
 /* Este é um comentário de uma linha CSS */
 
-/*
-   Este é um comentário
-   que ocupa várias linhas.
+/* 
+   Lembrete: 
+   - Verificar a cor de fundo em dispositivos móveis.
+   - Verificar as margens do contêiner para dispositivos móveis.
+   - Garantir que a cor de fundo não conflite com o esquema de cores escuro no modo noturno.
+   - O CSS,não é permitido adicionar comentários dentro de outros comentários
 */
 
-/* Resetando alguns estilos padrões do navegador */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/*
+   - Este é um comentário que ocupa várias linhas.
+   - O CSS,não é permitido adicionar comentários dentro de outros comentários
+*/
 
-/* Definindo a tipografia global */
+
+/* Definindo a cor de fundo para a página inteira */
 body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f9;
-    color: #333;
-    padding: 20px;
+    background-color: #1576ca; /* Exemplo de cor azul clara (pode ser qualquer cor) */
 }
 
-/* Container centralizado */
-.container {
-    width: 80%;
-    margin: 0 auto;
-    max-width: 1200px;
-}
+/* Opcional: Definir um fundo diferente para um elemento específico */
 
-/* Cabeçalho com título principal */
-header {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
+/*
 h1 {
-    font-size: 2.5em;
-    color: #2c3e50;
-    margin-bottom: 10px;
-}
-
-/* Estilos para os subtítulos */
-h2, h3, h4, h5, h6 {
-    color: #34495e;
-    margin-bottom: 10px;
-}
-
-h2 {
-    font-size: 2em;
-}
-
-h3 {
-    font-size: 1.75em;
-}
-
-h4 {
-    font-size: 1.5em;
-}
-
-h5 {
-    font-size: 1.25em;
-}
-
-h6 {
-    font-size: 1em;
-}
-
-/* Estilizando parágrafos */
-p {
-    font-size: 1.1em;
-    line-height: 1.8;
-    margin-bottom: 15px;
-}
-
-/* Estilo para o texto em itálico */
-em {
-    font-style: italic;
-    color: #e74c3c;
-}
-
-/* Estilo para o texto em negrito */
-strong {
-    font-weight: bold;
-    color: #16a085;
-}
-
-/* Adicionando espaçamento entre os elementos */
-section.content {
-    margin-top: 40px;
-}
-
-/* Separando o conteúdo em uma borda leve */
-section.content p, section.content h2, section.content h3, section.content h4, section.content h5, section.content h6 {
+    background-color: #ff6347; /* Cor de fundo para o título
+    color: white; /* Cor do texto 
     padding: 10px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
 }
-
-/* Pequenos ajustes em fontes */
-h1, h2, h3, h4, h5, h6 {
-    text-transform: capitalize;
-}
+/*
