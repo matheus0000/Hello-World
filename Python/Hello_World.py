@@ -17,4 +17,4 @@ for mensagem in mensagens:
 # Exibindo um marcador para indicar o fim da impressão
 print('#####')
 
-# (07/03)-(2025) #
+# (07/03)-(2025)#
